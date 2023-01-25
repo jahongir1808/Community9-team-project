@@ -58,3 +58,127 @@ input:focus {
     font-size: 16px !important;
   }
 }
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.huge-heading {
+  font-weight: 600;
+  font-size: 54px;
+  color: #282938;
+}
+
+.main-heading {
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  color: #282938;
+}
+
+.little-heading {
+  font-weight: 600;
+  font-size: 38px;
+  color: #282938;
+}
+
+.main-paragraph {
+  font-size: 16px;
+  color: #282938;
+  opacity: 0.7;
+  font-weight: 500;
+}
+
+.per-paragraph {
+  font-size: 16px;
+}
+
+.head-paragraph {
+  font-weight: 500;
+  font-size: 24px;
+  color: #282938;
+}
+
+.enterence-paragraph {
+  opacity: 1;
+  font-weight: 500;
+}
+
+.enter-paragraph {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #2405f2;
+}
+
+#pricing {
+  padding: 100px 0;
+}
+
+.intro-p {
+  max-width: 600px;
+}
+
+.fee-ad {
+  background-color: #f4f6fc;
+}
+
+.butn a {
+  background: #282938;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 41px;
+}
+.butn a:hover {
+  background-color: #3c3c44;
+}
+
+.butn-main a {
+  background-color: #fcd980;
+  color: #000;
+}
+.butn-main a:hover {
+  background-color: #ffbe19;
+  color: #000;
+}
+
+.space {
+  padding-top: 20px;
+}
+
+.main-card {
+  position: relative;
+  overflow: hidden;
+  background-color: #1C1E53;
+}
+.main-card h3, .main-card p {
+  color: #FFF;
+}
+
+.circle-animation {
+  position: absolute;
+  border-radius: 50%;
+  top: -330px;
+  left: -200px;
+  right: 0;
+  width: 800px;
+  height: 800px;
+  z-index: 4;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#faq {
+  margin-bottom: 100px;
+}
+
+.accordion-button-cus:focus {
+  color: black;
+  background-color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.button-num {
+  color: #2405F2;
+}/*# sourceMappingURL=pricing.css.map */
