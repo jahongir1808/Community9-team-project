@@ -26,6 +26,10 @@ section::after {
   display: none;
 }
 
+nav {
+  padding-bottom: 209px;
+}
+
 .navbar {
   padding: 22px 0;
 }
@@ -37,7 +41,7 @@ section::after {
     transition: 0.5s;
   }
   .bg-body-tertiary {
-    box-shadow: 0 3px 3px 0 rgba($color: #d47575, $alpha: 1);
+    box-shadow: 0 3px 3px 0 rgba($color: rgb(156, 159, 243), $alpha: 1);
   }
 }
 
@@ -88,6 +92,10 @@ section::after {
   color: #ffffff;
   border: 2px solid rgba(244, 246, 252, 0.2);
   border-radius: 41px;
+  transition: 0.3s;
+  &:hover {
+    background-color: rgb(65, 67, 125);
+  }
 }
 
 .offcanvas {
