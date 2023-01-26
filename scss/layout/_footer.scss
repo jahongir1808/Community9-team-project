@@ -1,0 +1,96 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.footer-top__left,
+.footer-top__right {
+    width: 100%;
+    @media (min-width: 768px) {
+        width: 50%;
+    }
+}
+
+footer {
+  .footer {
+    padding: 96px 0 0;
+    background: #1c1e53;
+    &-top {
+      column-gap: 142px;
+      &__left {
+        p {
+          max-width: 399px;
+          margin: 23px 0 86px;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1rem;
+          line-height: 28px;
+          color: rgb(255, 255, 255, 0.8);
+        }
+        .footer-top__contact {
+          padding: 17px 0 17px 37px;
+          width: 100%;
+          background: #fcd980;
+          h4 {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.125rem;
+            line-height: 32px;
+            color: $dark-blue;
+          }
+
+          a {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 28px;
+            color: rgb(40, 41, 56, 0.8);
+          }
+        }
+      }
+      &__right {
+        h1 {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 3rem;
+          line-height: 64px;
+          color: #ffffff;
+        }
+        p {
+          margin: 14px 0 28px;
+          max-width: 399px;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 28px;
+          color: rgb(244, 246, 252, 0.8);
+        }
+        .top-right__icons {
+          display: flex;
+          gap: 26px;
+          i {
+            font-size: 16px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    a {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 28px;
+      color: #282938;
+      transition: 0.3s;
+      &:hover {
+        color: #a2a5b5;
+      }
+    }
+  }
+}

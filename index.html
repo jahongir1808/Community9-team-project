@@ -13,6 +13,9 @@
     <title>Home</title>
   </head>
   <body>
+    <button id="backtop">
+      <a href="#"><i class="uil uil-arrow-up"></i></a>
+    </button>
     <header>
       <nav w3-include-html="nav.html" id="navbar"></nav>
       <div id="home">
@@ -29,8 +32,8 @@
               <div
                 class="home-left__btn d-flex column-gap-5 align-items-center"
               >
-                <a class="home-left-btn" href="">View our work</a>
-                <a class="home-left-btns" href=""
+                <a class="home-left-btn" href="work.html">View our work</a>
+                <a class="home-left-btns" href="pricing.html"
                   >View Pricing <i class="uil uil-arrow-right"></i>
                 </a>
               </div>
@@ -42,7 +45,7 @@
         </div>
       </div>
     </header>
-    <section id="wework">
+    <section id="wework">   
       <div class="container">
         <div class="wework">
           <div class="wework-left">
@@ -51,7 +54,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
-            <a href=""
+            <a href="work.html"
               >Get in touch with us <i class="uil uil-arrow-right"></i
             ></a>
           </div>
@@ -67,7 +70,7 @@
               </div>
               <div class="right-cards__card col-sm-6 col-12">
                 <img src="images/home/wework2 1.svg" alt="" />
-                <h3>Strategy</h3>
+                <h3>Wireframing</h3>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                   aliquam .
@@ -75,7 +78,7 @@
               </div>
               <div class="right-cards__card col-sm-6 col-12">
                 <img src="images/home/wework3 1.svg" alt="" />
-                <h3>Strategy</h3>
+                <h3>Design</h3>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                   aliquam .
@@ -83,7 +86,7 @@
               </div>
               <div class="right-cards__card col-sm-6 col-12">
                 <img src="images/home/wework4 1.svg" alt="" />
-                <h3>Strategy</h3>
+                <h3>Development</h3>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                   aliquam .
@@ -112,7 +115,7 @@
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                   aliquam
                 </p>
-                <a href="">View project <i class="uil uil-arrow-right"></i></a>
+                <a href="#">View project <i class="uil uil-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -123,14 +126,14 @@
               <img src="images/home/view-img2.png" alt="" />
               <div class="right-img__hide">
                 <h4>Unisaas Website Design</h4>
-                <a href="">View project <i class="uil uil-arrow-right"></i></a>
+                <a href="#">View project <i class="uil uil-arrow-right"></i></a>
               </div>
             </div>
             <div class="view-right__img w-100">
               <img src="images/home/view-img3.png" alt="" />
               <div class="right-img__hide">
                 <h4>Unisaas Website Design</h4>
-                <a href="">View project <i class="uil uil-arrow-right"></i></a>
+                <a href="#">View project <i class="uil uil-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -217,12 +220,243 @@
               "The best agency we’ve worked with so far. They understand our
               product and are able to add new features with a great focus."
             </h2>
-            <div class="clients-right__icon d-flex column-gap-3 align-items-center">
+            <div
+              class="clients-right__icon d-flex column-gap-3 align-items-center"
+            >
               <img src="images/home/clientsicon.svg" alt="" />
               <div class="right-icon__text">
                 <h5 class="m-0">Jenny Wilson</h5>
                 <h6>Vice President</h6>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="questions">
+      <div class="container">
+        <div class="questions">
+          <div class="questions-left">
+            <h3>Frequently asked questions</h3>
+            <a href="contact-us.html">Contact us for more info</a>
+          </div>
+          <div class="questions-right">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <h4 class="me-5">01</h4>
+                    How much time does it take?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <h4 class="me-5">02</h4>
+                    What is your class naming convention?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <h4 class="me-5">03</h4>
+                    How do you communicate?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    <h4 class="me-5">04</h4>
+                    I have a bigger project. Can you handle it?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    <h4 class="me-5">05</h4>
+                    What is your class naming convention?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="stellar">
+      <div class="container">
+        <div class="stellar">
+          <div class="stellar-left">
+            <div class="stellar-left__content">
+              <h2>Building stellar websites for early startups</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                enim.
+              </p>
+            </div>
+          </div>
+          <div class="stellar-right d-flex flex-column">
+            <h3>Send inquiry</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore.
+            </p>
+            <form class="d-flex flex-column row-gap-4">
+              <input placeholder="Your Name" type="text" />
+              <input placeholder="Email" type="email" />
+              <input placeholder="Paste your Figma design URL" type="text" />
+              <a href="#">Send an Inquiry</a>
+            </form>
+            <a class="stellar-right__btn text-center" href="#"
+              >Get in touch with us <i class="uil uil-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ourblog">
+      <div class="container">
+        <div class="ourblog">
+          <h2>Our blog</h2>
+          <div class="ourblog-cards">
+            <div class="ourblog-cards__card">
+              <img class="w-100" src="images/home/ourblog-1.png" alt="" />
+              <h6>19 Jan 2022</h6>
+              <h4>
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </h4>
+              <p>
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract
+              </p>
+              <a href="#">Read More <i class="uil uil-arrow-right"></i></a>
+            </div>
+            <div class="ourblog-cards__card">
+              <img class="w-100" src="images/home/ourblog-2.png" alt="" />
+              <h6>19 Jan 2022</h6>
+              <h4>
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </h4>
+              <p>
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract
+              </p>
+              <a href="#">Read More <i class="uil uil-arrow-right"></i></a>
+            </div>
+            <div class="ourblog-cards__card">
+              <img class="w-100" src="images/home/ourblog-3.png" alt="" />
+              <h6>19 Jan 2022</h6>
+              <h4>
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </h4>
+              <p>
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract
+              </p>
+              <a href="#">Read More <i class="uil uil-arrow-right"></i></a>
             </div>
           </div>
         </div>
