@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:wght@400;500;600;700&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,21 +44,25 @@ input:focus {
     font-size: 13px;
   }
 }
+
 @media (min-width: 576px) {
   :root {
     font-size: 14px;
   }
 }
+
 @media (min-width: 768px) {
   :root {
     font-size: 15px;
   }
 }
+
 @media (min-width: 992px) {
   :root {
     font-size: 16px !important;
   }
 }
+
 header {
   background-color: #1C1E53 !important;
 }
@@ -94,10 +99,12 @@ nav {
 .navbar-shrink {
   z-index: 99;
 }
+
 .navbar-shrink .navbar {
   padding: 15px 0;
   transition: 0.5s;
 }
+
 .navbar-shrink .bg-body-tertiary {
   box-shadow: 0 3px 3px 0 #9c9ff3;
 }
@@ -109,7 +116,9 @@ nav {
 .custom-droplink {
   transition: 0.3s;
 }
-.custom-droplink:hover, .custom-droplink:focus {
+
+.custom-droplink:hover,
+.custom-droplink:focus {
   color: #1C1E53;
 }
 
@@ -123,12 +132,15 @@ nav {
   color: #bbbbcb;
   transition: 0.3s;
 }
+
 @media (max-width: 992px) {
   .custom-navlink {
     padding: 10px 0 !important;
   }
 }
-.custom-navlink:hover, .custom-navlink:focus {
+
+.custom-navlink:hover,
+.custom-navlink:focus {
   color: #FFFFFF;
 }
 
@@ -144,6 +156,7 @@ nav {
   border-radius: 41px;
   transition: 0.3s;
 }
+
 .navbar-btn:hover {
   background-color: rgb(65, 67, 125);
 }
@@ -156,6 +169,7 @@ nav {
 .btn-close {
   color: grey;
 }
+
 .btn-close:focus {
   box-shadow: 0 0 0 0.25rem rgba(59, 59, 59, 0.2509803922);
 }
@@ -174,13 +188,91 @@ nav {
   transition: 0.3s;
 }
 
+.main-heading {
+  top: 50px;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  color: #282938;
+}
+
+.main-paragraph {
+  font-size: 16px;
+  color: #282938;
+  opacity: 0.7;
+  font-weight: 500;
+}
+
+.intro-p {
+  max-width: 600px;
+}
+
+.social_icons {
+  padding: 50px 0px;
+}
+
+.s_icons {
+  font-size: 25px;
+  padding: 25px;
+  color: #282938;
+}
+
+.s_icons:hover {
+  color: blue;
+}
+
+.menu_link {
+  padding: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+
+  /* Dark blue */
+
+  color: #282938;
+
+  opacity: 0.7;
+}
+
+.menu_link:hover {
+  color: #2405F2;
+}
+
+.last_part {
+  padding: 100px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.work_btn {
+  width: 230px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+
+  /* DARK */
+
+  color: #1B1C2B;
+  background: #FCD980;
+  padding: 15px;
+  border-radius: 41px;
+}
+
 .footer-top__left,
 .footer-top__right {
   width: 100%;
 }
+
 @media (min-width: 768px) {
+
   .footer-top__left,
-.footer-top__right {
+  .footer-top__right {
     width: 50%;
   }
 }
@@ -189,10 +281,12 @@ footer .footer {
   padding: 96px 0 0;
   background: #1c1e53;
 }
+
 footer .footer-top {
   -moz-column-gap: 142px;
-       column-gap: 142px;
+  column-gap: 142px;
 }
+
 footer .footer-top__left p {
   max-width: 399px;
   margin: 23px 0 86px;
@@ -203,11 +297,13 @@ footer .footer-top__left p {
   line-height: 28px;
   color: rgba(255, 255, 255, 0.8);
 }
+
 footer .footer-top__left .footer-top__contact {
   padding: 17px 0 17px 37px;
   width: 100%;
   background: #fcd980;
 }
+
 footer .footer-top__left .footer-top__contact h4 {
   font-family: "Poppins";
   font-style: normal;
@@ -216,6 +312,7 @@ footer .footer-top__left .footer-top__contact h4 {
   line-height: 32px;
   color: #282938;
 }
+
 footer .footer-top__left .footer-top__contact a {
   font-family: "Poppins";
   font-style: normal;
@@ -224,6 +321,7 @@ footer .footer-top__left .footer-top__contact a {
   line-height: 28px;
   color: rgba(40, 41, 56, 0.8);
 }
+
 footer .footer-top__right h1 {
   font-family: "Poppins";
   font-style: normal;
@@ -232,6 +330,7 @@ footer .footer-top__right h1 {
   line-height: 64px;
   color: #ffffff;
 }
+
 footer .footer-top__right p {
   margin: 14px 0 28px;
   max-width: 399px;
@@ -242,14 +341,17 @@ footer .footer-top__right p {
   line-height: 28px;
   color: rgba(244, 246, 252, 0.8);
 }
+
 footer .footer-top__right .top-right__icons {
   display: flex;
   gap: 26px;
 }
+
 footer .footer-top__right .top-right__icons i {
   font-size: 16px;
   color: white;
 }
+
 footer .footer-bottom a {
   font-family: "Poppins";
   font-style: normal;
@@ -259,6 +361,7 @@ footer .footer-bottom a {
   color: #282938;
   transition: 0.3s;
 }
+
 footer .footer-bottom a:hover {
   color: #a2a5b5;
 }
