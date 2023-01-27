@@ -262,3 +262,119 @@ footer .footer-bottom a {
 footer .footer-bottom a:hover {
   color: #a2a5b5;
 }
+
+.container .about-txt h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #282938;
+  opacity: 0.8;
+}
+.container .about-txt h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #282938;
+}
+.container .about-txt p {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+}
+.container .about-img {
+  padding-top: 20px;
+}
+.container .about-img img {
+  width: 100%;
+}
+.container .about-img .client-call {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+.container .about-img .client-call p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.8;
+}
+.container .about-img .client-call h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #282938;
+}
+.container .project-box {
+  padding-top: 100px;
+}
+.container .project-box p {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+}
+.container .project-box li {
+  font-weight: 400;
+  margin-top: 17px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  color: #282938;
+  opacity: 0.7;
+}
+.container .project-box img {
+  padding-top: 50px;
+}
+.container .jobs {
+  padding-top: 100px;
+}
+.container .jobs a {
+  font-weight: 500;
+  padding-left: 70px;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: justify;
+  color: #282938;
+  opacity: 0.7;
+}
+.container .jobs a:hover {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2405f2;
+  transition: 0.3s;
+}
+.container .contact {
+  padding: 150px 0px 150px 0px;
+}
+.container .contact p {
+  font-weight: 500;
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+}
+.container .contact a {
+  color: black;
+  background-color: #fcd980;
+  padding: 17px 70px;
+  border-radius: 35px;
+}
+
+@media (max-width: 550px) {
+  .about-img .client-call div h2 {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .jobs a {
+    display: block !important;
+  }
+}
