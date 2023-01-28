@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/contact-us.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
     <title>Contact Us</title>
   </head>
   <body>
@@ -13,6 +17,60 @@
       <a href="#"><i class="uil uil-arrow-up"></i></a>
     </button>
     <nav w3-include-html="nav.html" id="navbar"></nav>
+    <section id="contactus">
+      <div class="container">
+        <div class="contactus">
+          <div class="contactus-heading text-center">
+            <h2>Contact Us</h2>
+            <p class="contactus-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore.
+            </p>
+          </div>
+          <div class="contactus-inputs custom-container">
+            <form>
+              <div class="contactus-input__left">
+                <p>Name</p>
+                <input
+                  class="w-100"
+                  placeholder="Enter your name"
+                  type="text"
+                />
+              </div>
+              <div class="contactus-input__right">
+                <p>Email</p>
+                <input
+                  class="w-100"
+                  placeholder="Enter your Email"
+                  type="email"
+                />
+              </div>
+              <div class="contactus-input__bleft">
+                <p>Subject</p>
+                <input
+                  class="w-100"
+                  placeholder="Provide context"
+                  type="text"
+                />
+              </div>
+              <div class="contactus-input__bright">
+                <p>Subject</p>
+                <input class="w-100" placeholder="Select Subject" type="text" />
+              </div>
+            </form>
+            <div class="contactus-input_area">
+              <p>Message</p>
+              <textarea
+                class="w-100"
+                placeholder="Write your  question here"
+              ></textarea>
+            </div>
+            <a href="#">Send Messege</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer w3-include-html="footer.html"></footer>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
